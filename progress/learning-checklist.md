@@ -10,6 +10,7 @@
 ## 章節完成狀態
 
 - [ ] Linux 架構
+- [ ] User Space vs Kernel Space
 - [ ] Process 管理
 - [ ] Thread 與 Scheduling
 - [ ] System Call

@@ -28,16 +28,17 @@
 ## 建議閱讀順序
 
 1. [Linux 架構](docs/01-linux-architecture.md)
-2. [Process 管理](docs/02-process-management.md)
-3. [Thread 與 Scheduling](docs/03-threads-and-scheduling.md)
-4. [System Call](docs/04-system-calls.md)
-5. [IPC](docs/05-ipc.md)
-6. [Synchronization](docs/06-synchronization.md)
-7. [記憶體管理](docs/07-memory-management.md)
-8. [Filesystem 與 I/O](docs/08-filesystem-and-io.md)
-9. [Networking 基礎](docs/09-networking-basics.md)
-10. [Linux 除錯](docs/10-linux-debugging.md)
-11. [面試題整理](docs/11-interview-questions.md)
+2. [User Space vs Kernel Space](docs/02-user-space-vs-kernel-space.md)
+3. [Process 管理](docs/03-process-management.md)
+4. [Thread 與 Scheduling](docs/04-threads-and-scheduling.md)
+5. [System Call](docs/05-system-calls.md)
+6. [IPC](docs/06-ipc.md)
+7. [Synchronization](docs/07-synchronization.md)
+8. [記憶體管理](docs/08-memory-management.md)
+9. [Filesystem 與 I/O](docs/09-filesystem-and-io.md)
+10. [Networking 基礎](docs/10-networking-basics.md)
+11. [Linux 除錯](docs/11-linux-debugging.md)
+12. [面試題整理](docs/12-interview-questions.md)
 
 ## 文件結構
 
@@ -50,6 +51,7 @@
 完整版本請看 [progress/learning-checklist.md](progress/learning-checklist.md)。
 
 - [ ] Linux 架構
+- [ ] User Space vs Kernel Space
 - [ ] Process 管理
 - [ ] Thread 與 Scheduling
 - [ ] System Call
