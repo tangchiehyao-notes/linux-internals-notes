@@ -1,10 +1,14 @@
-# Linux 架構
+# Linux Internals Overview
 
 ## 一句話總結
 
-Linux 架構的核心不是「很多元件堆在一起」，而是用 kernel 當作硬體與所有 software component 之間的資源仲裁者，透過清楚的分層把可攜性、多工、隔離、穩定性與可除錯性同時做出來。
+這一章談的不是獨立於 Linux Internals 之外的「Linux 架構學」，而是先建立後面 process、thread、system call、memory、I/O 與 debugging 會一直用到的整體地圖。
 
 ## 為什麼重要
+
+這一章的角色比較像 Linux Internals 的入口章，而不是另一條平行主線。
+
+先把系統分層、責任邊界、boot path 與常見元件位置對齊，後面再看 User Space vs Kernel Space、Process、System Call、Memory Management 時，才不會變成一堆彼此分離的名詞。
 
 對 Firmware Engineer / Embedded Linux Engineer 來說，Linux 架構不是背景知識，而是每天在 debug 時真正會拿來用的地圖。
 

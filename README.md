@@ -27,7 +27,7 @@
 
 ## 建議閱讀順序
 
-1. [Linux 架構](docs/01-linux-architecture.md)
+1. [Linux Internals Overview](docs/01-linux-architecture.md)
 2. [User Space vs Kernel Space](docs/02-user-space-vs-kernel-space.md)
 3. [Process 管理](docs/03-process-management.md)
 4. [Thread 與 Scheduling](docs/04-threads-and-scheduling.md)
@@ -50,7 +50,7 @@
 
 完整版本請看 [progress/learning-checklist.md](progress/learning-checklist.md)。
 
-- [ ] Linux 架構
+- [ ] Linux Internals Overview
 - [ ] User Space vs Kernel Space
 - [ ] Process 管理
 - [ ] Thread 與 Scheduling

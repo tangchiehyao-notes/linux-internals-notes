@@ -12,11 +12,13 @@ User Space 與 Kernel Space 的核心不是「誰比較底層」，而是 Linux 
 | Difficulty | Beginner |
 | Importance | ⭐⭐⭐⭐⭐ |
 | Interview Frequency | ⭐⭐⭐⭐⭐ |
-| Last Updated | 2026-06-06 |
+| Last Updated | 2026-06-10 |
 
 ## 為什麼重要
 
 對 Firmware Engineer / Embedded Linux Engineer 來說，這不是教科書名詞，而是每天都會碰到的除錯邏輯。
+
+如果第一章是在建立整張 Linux Internals 地圖，這一章就是先把圖上最重要的一條邊界畫清楚：哪些事情應該留在 User Space，哪些能力必須由 Kernel 代管。
 
 - 當一個 process crash 時，為什麼通常只死它自己，不會整台機器一起掛掉？
 - 為什麼 user space 程式不能直接碰 MMIO register？
@@ -267,7 +269,7 @@ user space 傳進來的 pointer：
 
 常被混淆的點：
 
-- mode switch：user mode <-> kernel mode
+- mode switch：`user mode <-> kernel mode`
 - context switch：A process/thread 切到 B process/thread
 
 一個 system call 可能只有 mode switch，不一定發生 context switch。  
